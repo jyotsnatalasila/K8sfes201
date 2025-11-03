@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://16.16.28.69:30083/auth";
+const API_URL = "http://ec2-16-16-80-131.eu-north-1.compute.amazonaws.com:30083/auth";
 
 // Fetch products by category (computers, mobiles, laptops, pendrives, or all)
 export const getProducts = async (category = "") => {
